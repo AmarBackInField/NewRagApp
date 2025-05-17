@@ -7,7 +7,7 @@ WORKDIR /app
 # Set environment variables
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
-    OPENAI_API_KEY="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"
+    OPENAI_API_KEY=${OPENAI_API_KEY}
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
