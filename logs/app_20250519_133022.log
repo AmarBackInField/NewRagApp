@@ -1,0 +1,124 @@
+2025-05-19 13:30:38,218 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:30:38,218 - data_ingestion - DEBUG - Processing file: uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-19 13:30:41,657 - data_ingestion - INFO - Successfully loaded uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-19 13:30:41,657 - data_ingestion - INFO - Total documents loaded: 12
+2025-05-19 13:30:41,665 - data_ingestion - INFO - Documents split into 12 chunks
+2025-05-19 13:30:41,665 - vstore - INFO - Creating vector store with OpenAIEmbeddings
+2025-05-19 13:30:43,894 - vstore - INFO - Saving vector store to path: faiss_index
+2025-05-19 13:30:43,918 - vstore - INFO - Vector store saved successfully
+2025-05-19 13:30:47,548 - vstore - INFO - Loading vector store from disk
+2025-05-19 13:30:47,629 - rag - INFO - Creating RAG chain
+2025-05-19 13:30:47,629 - rag - DEBUG - Memory initialized
+2025-05-19 13:30:47,653 - rag - INFO - RAG chain created successfully
+2025-05-19 13:31:22,593 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:31:22,595 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:31:23,113 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:31:23,116 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 13:31:23,119 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 13:31:23,121 - vstore - INFO - Creating vector store with OpenAIEmbeddings
+2025-05-19 13:31:25,631 - vstore - INFO - Saving vector store to path: faiss_index
+2025-05-19 13:31:25,631 - vstore - INFO - Removed existing file: faiss_index\index.faiss
+2025-05-19 13:31:25,647 - vstore - INFO - Removed existing file: faiss_index\index.pkl
+2025-05-19 13:31:25,647 - vstore - INFO - Vector store saved successfully
+2025-05-19 13:31:29,054 - vstore - INFO - Loading vector store from disk
+2025-05-19 13:31:29,126 - rag - INFO - Creating RAG chain
+2025-05-19 13:31:29,134 - rag - DEBUG - Memory initialized
+2025-05-19 13:31:29,158 - rag - INFO - RAG chain created successfully
+2025-05-19 13:34:08,827 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:34:08,832 - data_ingestion - DEBUG - Processing file: uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-19 13:34:12,384 - data_ingestion - INFO - Successfully loaded uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-19 13:34:12,384 - data_ingestion - INFO - Total documents loaded: 12
+2025-05-19 13:34:12,384 - data_ingestion - INFO - Documents split into 12 chunks
+2025-05-19 13:34:12,393 - vstore - INFO - Creating vector store with OpenAIEmbeddings
+2025-05-19 13:34:14,529 - vstore - INFO - Saving vector store to path: faiss_index
+2025-05-19 13:34:14,529 - vstore - INFO - Removed existing file: faiss_index\index.faiss
+2025-05-19 13:34:14,529 - vstore - INFO - Removed existing file: faiss_index\index.pkl
+2025-05-19 13:34:14,544 - vstore - INFO - Vector store saved successfully
+2025-05-19 13:34:16,514 - vstore - INFO - Loading vector store from disk
+2025-05-19 13:34:16,579 - rag - INFO - Creating RAG chain
+2025-05-19 13:34:16,587 - rag - DEBUG - Memory initialized
+2025-05-19 13:34:16,611 - rag - INFO - RAG chain created successfully
+2025-05-19 13:35:06,706 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:35:06,709 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:35:07,202 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:35:07,211 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 13:35:07,211 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 13:35:07,216 - vstore - INFO - Creating vector store with OpenAIEmbeddings
+2025-05-19 13:35:09,209 - vstore - INFO - Saving vector store to path: faiss_index
+2025-05-19 13:35:09,214 - vstore - INFO - Removed existing file: faiss_index\index.faiss
+2025-05-19 13:35:09,215 - vstore - INFO - Removed existing file: faiss_index\index.pkl
+2025-05-19 13:35:09,217 - vstore - INFO - Vector store saved successfully
+2025-05-19 13:35:11,508 - vstore - INFO - Loading vector store from disk
+2025-05-19 13:35:11,611 - rag - INFO - Creating RAG chain
+2025-05-19 13:35:11,620 - rag - DEBUG - Memory initialized
+2025-05-19 13:35:11,669 - rag - INFO - RAG chain created successfully
+2025-05-19 13:35:34,400 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:35:34,406 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:35:34,906 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:35:34,906 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 13:35:34,916 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 13:35:34,918 - vstore - INFO - Creating vector store with OpenAIEmbeddings
+2025-05-19 13:35:38,207 - vstore - INFO - Saving vector store to path: faiss_index
+2025-05-19 13:35:38,215 - vstore - INFO - Removed existing file: faiss_index\index.faiss
+2025-05-19 13:35:38,215 - vstore - INFO - Removed existing file: faiss_index\index.pkl
+2025-05-19 13:35:38,220 - vstore - INFO - Vector store saved successfully
+2025-05-19 13:35:40,184 - vstore - INFO - Loading vector store from disk
+2025-05-19 13:35:40,265 - rag - INFO - Creating RAG chain
+2025-05-19 13:35:40,273 - rag - DEBUG - Memory initialized
+2025-05-19 13:35:40,313 - rag - INFO - RAG chain created successfully
+2025-05-19 13:40:37,650 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:40:37,654 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:40:38,143 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:40:38,143 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 13:40:38,159 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 13:40:38,166 - vstore - INFO - Creating vector store with OpenAIEmbeddings
+2025-05-19 13:40:40,111 - vstore - INFO - Saving vector store to path: faiss_index
+2025-05-19 13:40:40,111 - vstore - INFO - Removed existing file: faiss_index\index.faiss
+2025-05-19 13:40:40,116 - vstore - INFO - Removed existing file: faiss_index\index.pkl
+2025-05-19 13:40:40,118 - vstore - INFO - Vector store saved successfully
+2025-05-19 13:40:42,009 - vstore - INFO - Loading vector store from disk
+2025-05-19 13:40:42,089 - rag - INFO - Creating RAG chain
+2025-05-19 13:40:42,089 - rag - DEBUG - Memory initialized
+2025-05-19 13:40:42,121 - rag - INFO - RAG chain created successfully
+2025-05-19 14:03:58,775 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 14:03:58,779 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:03:59,091 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:03:59,104 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 14:03:59,108 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 14:03:59,108 - vstore - INFO - Creating vector store with OpenAIEmbeddings
+2025-05-19 14:04:00,797 - vstore - INFO - Saving vector store to path: faiss_index
+2025-05-19 14:04:00,805 - vstore - INFO - Removed existing file: faiss_index\index.faiss
+2025-05-19 14:04:00,808 - vstore - INFO - Removed existing file: faiss_index\index.pkl
+2025-05-19 14:04:00,813 - vstore - INFO - Vector store saved successfully
+2025-05-19 14:04:02,932 - vstore - INFO - Loading vector store from disk
+2025-05-19 14:04:02,972 - rag - INFO - Creating RAG chain
+2025-05-19 14:04:02,972 - rag - DEBUG - Memory initialized
+2025-05-19 14:04:02,997 - rag - INFO - RAG chain created successfully
+2025-05-19 14:06:59,176 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 14:06:59,182 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:06:59,792 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:06:59,800 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 14:06:59,800 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 14:06:59,809 - vstore - INFO - Creating vector store with OpenAIEmbeddings
+2025-05-19 14:07:01,536 - vstore - INFO - Saving vector store to path: faiss_index
+2025-05-19 14:07:01,536 - vstore - INFO - Removed existing file: faiss_index\index.faiss
+2025-05-19 14:07:01,544 - vstore - INFO - Removed existing file: faiss_index\index.pkl
+2025-05-19 14:07:01,557 - vstore - INFO - Vector store saved successfully
+2025-05-19 14:07:03,904 - vstore - INFO - Loading vector store from disk
+2025-05-19 14:07:04,000 - rag - INFO - Creating RAG chain
+2025-05-19 14:07:04,006 - rag - DEBUG - Memory initialized
+2025-05-19 14:07:04,052 - rag - INFO - RAG chain created successfully
+2025-05-19 14:11:39,569 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 14:11:39,575 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:11:40,257 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:11:40,257 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 14:11:40,269 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 14:11:40,276 - vstore - INFO - Creating vector store with OpenAIEmbeddings
+2025-05-19 14:11:41,756 - vstore - INFO - Saving vector store to path: faiss_index
+2025-05-19 14:11:41,772 - vstore - INFO - Removed existing file: faiss_index\index.faiss
+2025-05-19 14:11:41,777 - vstore - INFO - Removed existing file: faiss_index\index.pkl
+2025-05-19 14:11:41,789 - vstore - INFO - Vector store saved successfully
+2025-05-19 14:11:43,923 - vstore - INFO - Loading vector store from disk
+2025-05-19 14:11:44,025 - rag - INFO - Creating RAG chain
+2025-05-19 14:11:44,033 - rag - DEBUG - Memory initialized
+2025-05-19 14:11:44,082 - rag - INFO - RAG chain created successfully

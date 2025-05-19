@@ -1,0 +1,14 @@
+2025-05-19 14:39:46,031 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 14:39:46,031 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:39:46,400 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:39:46,400 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 14:39:46,400 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 14:39:46,400 - vstore - INFO - Creating vector store with OpenAIEmbeddings
+2025-05-19 14:39:48,120 - vstore - INFO - Saving vector store to path: faiss_index
+2025-05-19 14:39:48,120 - vstore - INFO - Removed existing file: faiss_index\index.faiss
+2025-05-19 14:39:48,120 - vstore - INFO - Removed existing file: faiss_index\index.pkl
+2025-05-19 14:39:48,130 - vstore - INFO - Vector store saved successfully
+2025-05-19 14:39:50,637 - vstore - INFO - Loading vector store from disk
+2025-05-19 14:39:50,689 - rag - INFO - Creating RAG chain
+2025-05-19 14:39:50,690 - rag - DEBUG - Memory initialized
+2025-05-19 14:39:50,712 - rag - INFO - RAG chain created successfully

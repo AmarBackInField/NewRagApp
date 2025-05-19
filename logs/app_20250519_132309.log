@@ -1,0 +1,95 @@
+2025-05-19 13:24:54,763 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:24:54,768 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:24:55,252 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:24:55,252 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 13:24:55,265 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 13:26:42,195 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:26:42,195 - data_ingestion - DEBUG - Processing file: uploaded_files\Generative AI & Dev Problem Statement - Pathway.pdf
+2025-05-19 13:26:42,256 - data_ingestion - INFO - Successfully loaded uploaded_files\Generative AI & Dev Problem Statement - Pathway.pdf
+2025-05-19 13:26:42,256 - data_ingestion - INFO - Total documents loaded: 13
+2025-05-19 13:26:42,256 - data_ingestion - INFO - Documents split into 0 chunks
+2025-05-19 13:26:58,940 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:26:58,944 - data_ingestion - DEBUG - Processing file: uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-19 13:27:02,545 - data_ingestion - INFO - Successfully loaded uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-19 13:27:02,545 - data_ingestion - INFO - Total documents loaded: 12
+2025-05-19 13:27:02,545 - data_ingestion - INFO - Documents split into 12 chunks
+2025-05-19 13:27:08,454 - rag - INFO - Creating RAG chain
+2025-05-19 13:27:08,454 - rag - DEBUG - Memory initialized
+2025-05-19 13:27:08,487 - rag - INFO - RAG chain created successfully
+2025-05-19 13:27:49,510 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:27:49,511 - data_ingestion - DEBUG - Processing file: uploaded_files\Compressible_Flow_Gas_Expansion_in_Compressible_Flow_Report.pdf
+2025-05-19 13:27:50,042 - data_ingestion - INFO - Successfully loaded uploaded_files\Compressible_Flow_Gas_Expansion_in_Compressible_Flow_Report.pdf
+2025-05-19 13:27:50,043 - data_ingestion - INFO - Total documents loaded: 16
+2025-05-19 13:27:50,043 - data_ingestion - INFO - Documents split into 24 chunks
+2025-05-19 13:30:38,218 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:30:38,218 - data_ingestion - DEBUG - Processing file: uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-19 13:30:41,657 - data_ingestion - INFO - Successfully loaded uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-19 13:30:41,657 - data_ingestion - INFO - Total documents loaded: 12
+2025-05-19 13:30:41,665 - data_ingestion - INFO - Documents split into 12 chunks
+2025-05-19 13:30:47,629 - rag - INFO - Creating RAG chain
+2025-05-19 13:30:47,629 - rag - DEBUG - Memory initialized
+2025-05-19 13:30:47,653 - rag - INFO - RAG chain created successfully
+2025-05-19 13:31:22,593 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:31:22,595 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:31:23,113 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:31:23,116 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 13:31:23,119 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 13:31:29,126 - rag - INFO - Creating RAG chain
+2025-05-19 13:31:29,134 - rag - DEBUG - Memory initialized
+2025-05-19 13:31:29,158 - rag - INFO - RAG chain created successfully
+2025-05-19 13:34:08,827 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:34:08,832 - data_ingestion - DEBUG - Processing file: uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-19 13:34:12,384 - data_ingestion - INFO - Successfully loaded uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-19 13:34:12,384 - data_ingestion - INFO - Total documents loaded: 12
+2025-05-19 13:34:12,384 - data_ingestion - INFO - Documents split into 12 chunks
+2025-05-19 13:34:16,579 - rag - INFO - Creating RAG chain
+2025-05-19 13:34:16,587 - rag - DEBUG - Memory initialized
+2025-05-19 13:34:16,611 - rag - INFO - RAG chain created successfully
+2025-05-19 13:35:06,706 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:35:06,709 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:35:07,202 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:35:07,211 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 13:35:07,211 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 13:35:11,611 - rag - INFO - Creating RAG chain
+2025-05-19 13:35:11,620 - rag - DEBUG - Memory initialized
+2025-05-19 13:35:11,669 - rag - INFO - RAG chain created successfully
+2025-05-19 13:35:34,400 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:35:34,406 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:35:34,906 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:35:34,906 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 13:35:34,916 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 13:35:40,265 - rag - INFO - Creating RAG chain
+2025-05-19 13:35:40,273 - rag - DEBUG - Memory initialized
+2025-05-19 13:35:40,313 - rag - INFO - RAG chain created successfully
+2025-05-19 13:40:37,650 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 13:40:37,654 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:40:38,143 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 13:40:38,143 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 13:40:38,159 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 13:40:42,089 - rag - INFO - Creating RAG chain
+2025-05-19 13:40:42,089 - rag - DEBUG - Memory initialized
+2025-05-19 13:40:42,121 - rag - INFO - RAG chain created successfully
+2025-05-19 14:03:58,775 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 14:03:58,779 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:03:59,091 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:03:59,104 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 14:03:59,108 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 14:04:02,972 - rag - INFO - Creating RAG chain
+2025-05-19 14:04:02,972 - rag - DEBUG - Memory initialized
+2025-05-19 14:04:02,997 - rag - INFO - RAG chain created successfully
+2025-05-19 14:06:59,176 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 14:06:59,182 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:06:59,792 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:06:59,800 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 14:06:59,800 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 14:07:04,000 - rag - INFO - Creating RAG chain
+2025-05-19 14:07:04,006 - rag - DEBUG - Memory initialized
+2025-05-19 14:07:04,052 - rag - INFO - RAG chain created successfully
+2025-05-19 14:11:39,569 - data_ingestion - INFO - Starting document ingestion process
+2025-05-19 14:11:39,575 - data_ingestion - DEBUG - Processing file: uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:11:40,257 - data_ingestion - INFO - Successfully loaded uploaded_files\Gas_Expansion_in_Compressible_Flow_(Report).pdf
+2025-05-19 14:11:40,257 - data_ingestion - INFO - Total documents loaded: 15
+2025-05-19 14:11:40,269 - data_ingestion - INFO - Documents split into 22 chunks
+2025-05-19 14:11:44,025 - rag - INFO - Creating RAG chain
+2025-05-19 14:11:44,033 - rag - DEBUG - Memory initialized
+2025-05-19 14:11:44,082 - rag - INFO - RAG chain created successfully
