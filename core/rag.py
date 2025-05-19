@@ -27,13 +27,15 @@ def create_rag_chain(vectorstore):
             return_messages=True
         )
         logger.debug("Memory initialized")
-        
+        # Set up the prompt template
+        prompt=prompt_templatee()
         # Create the chain
         chain = ConversationalRetrievalChain.from_llm(
-            llm=ChatOpenAI(temperature=0.7),
+            llm=ChatOpenAI(temperature=0.2),
             retriever=vectorstore.as_retriever(),
             memory=memory,
-            verbose=True
+            combine_docs_chain_kwargs={"prompt": prompt},
+            verbose=True,
         )
         logger.info("RAG chain created successfully")
         

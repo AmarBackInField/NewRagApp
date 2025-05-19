@@ -4,30 +4,32 @@ def prompt_templatee():
     prompt_template = PromptTemplate(
         input_variables=["context", "question", "chat_history"],
         template="""
-You are a helpful and knowledgeable AI assistant engaged in a multi-turn conversation with a user.
-Answer the current question based **only** on the provided context and the prior chat history.  
-If the answer is not present in the context, respond with: **"I could not find the answer in the provided context."**
+You are an assistant who strictly answers using the given context and prior chat history only.
+Do NOT answer using your own knowledge. If no answer is found, say:
+**"I could not find the answer in the provided context."**
 
-### Guidelines:
-- Use only the information from the context and relevant chat history.
-- Be concise and clear in your responses.
-- Use bullet points or lists if the answer involves multiple points.
-- Do not make up information or go beyond the given content.
-- Do not restate the entire context or chat history.
+⚠️ IMPORTANT INSTRUCTIONS:
+- Do **not** use prior knowledge or general world knowledge.
+- If the answer is **not** found in the context or chat history, respond exactly with:
+  **"I could not find the answer in the provided context."**
+- Do **not** try to guess, assume, or fabricate answers.
+- Be brief, clear, and use bullet points if appropriate.
+- Do not restate the entire context or history.
 
-### Previous Conversation:
+---
+
+**Previous Conversation:**
 {chat_history}
 
-### Current Context:
+**Relevant Context:**
 {context}
 
-### User's Question:
+**User's Question:**
 {question}
 
-### AI Assistant's Answer:
+**AI Assistant's Answer:**
 """
     )
-    # prompt = prompt_template.format(context=context, question=question, chat_history=formatted_history)
     return prompt_template
 
 def intro_prompt():

@@ -1,15 +1,20 @@
 import streamlit as st
 from core.rag import create_rag_chain
-from core.data_ingestion import ingest_documents, load_vectorstore
+from core.data_ingestion import ingest_documents
+from core.vstore import store_documents_in_vectorstore, load_vectorstore
 import os
 import time
 from dotenv import load_dotenv
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from config.prompt import intro_prompt
 from pypdf.errors import EmptyFileError
+import shutil
 
+# Load environment variables
 load_dotenv()
-api_key=os.getenv("OPENAI_API_KEY")
+api_key = os.getenv("OPENAI_API_KEY")
+
+# --- Helper Functions ---
 
 def stream_output(text, container, delay=0.005):
     """Stream text output character by character in Streamlit."""
@@ -32,6 +37,31 @@ def validate_files(files):
     
     return True, "Files validated successfully."
 
+def save_uploaded_files(uploaded_files, upload_folder="uploaded_files"):
+    """Save uploaded files and return their paths."""
+    os.makedirs(upload_folder, exist_ok=True)
+
+    # Clear folder if it has old files
+    if os.listdir(upload_folder):
+        for filename in os.listdir(upload_folder):
+            file_path = os.path.join(upload_folder, filename)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+            elif os.path.isdir(file_path):
+                shutil.rmtree(file_path)
+
+    saved_paths = []
+    for file in uploaded_files:
+        file_path = os.path.join(upload_folder, file.name)
+        with open(file_path, "wb") as f:
+            f.write(file.getbuffer())
+        saved_paths.append(file_path)
+
+    return saved_paths
+
+
+# --- Streamlit Setup ---
+
 st.set_page_config(page_title="Chat with Documents", layout="wide")
 
 # Session State Initialization
@@ -42,38 +72,38 @@ if "rag_chain" not in st.session_state:
 if "vectorstore" not in st.session_state:
     st.session_state.vectorstore = None
 
-# Sidebar
+# --- Sidebar ---
+
 with st.sidebar:
     st.title("📚 Doc Chatbot")
-
     uploaded_files = st.file_uploader("Upload PDFs or TXT files", type=["pdf", "txt"], accept_multiple_files=True)
 
     if st.button("Ingest & Index"):
         if uploaded_files:
-            # Validate files before processing
             is_valid, message = validate_files(uploaded_files)
             if not is_valid:
                 st.error(message)
             else:
                 with st.spinner("Processing documents..."):
                     try:
-                        chunks = ingest_documents(uploaded_files)  # Save & Index
-                        # llm = ChatOpenAI(temperature=0.7, model="gpt-4", api_key=api_key)
-                        llm = ChatOpenAI(temperature=0.7, model="gpt-4o-mini", api_key=api_key)
-                        top_chunks = chunks[:5]
-                        chunk_text = "\n\n".join([c.page_content for c in top_chunks])
+                        saved_file_paths = save_uploaded_files(uploaded_files)
+                        chunks = ingest_documents(saved_file_paths)
 
-                        # Format prompt
-                        intro_promp=intro_prompt()
-                        prompt = intro_promp.format(chunks=chunk_text)
+                        # Embed and store in vector DB
+                        store_documents_in_vectorstore(chunks, index_path="faiss_index")
 
-                        # Generate intro message
+                        # Show example response
+                        llm = ChatOpenAI(temperature=0.2, model="gpt-4", api_key=api_key)
+                        chunk_text = "\n\n".join([c.page_content for c in chunks[:5]])
+                        prompt = intro_prompt().format(chunks=chunk_text)
                         intro_message = llm.invoke(prompt).content
                         st.success(intro_message)
+
+                        # Setup RAG Chain
                         st.session_state.vectorstore = load_vectorstore()
                         st.session_state.rag_chain = create_rag_chain(st.session_state.vectorstore)
                         st.success("Documents successfully indexed and ready for querying!")
-                        
+                    
                     except EmptyFileError:
                         st.error("Error: One or more files are empty. Please check your files and try again.")
                     except Exception as e:
@@ -84,7 +114,9 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("**Instructions:**\n- Upload your docs\n- Ask questions\n- Get AI answers")
 
-# Main Chat Interface
+
+# --- Main Chat Interface ---
+
 st.title("🤖 Ask Questions from Your Docs")
 
 if not st.session_state.rag_chain:
@@ -104,9 +136,9 @@ else:
                     stream_output(answer, response_box)
                 except Exception as e:
                     st.error(f"An error occurred while processing your question: {str(e)}")
-        
+
         st.session_state.chat_history.append({"role": "assistant", "text": answer})
-    
+
     # Display chat history
     for entry in st.session_state.chat_history:
         if entry["role"] == "user":

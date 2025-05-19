@@ -1,5 +1,5 @@
-from core.vstore import save_to_faiss
-from core.data_ingestion import load_and_split_documents_from_directory
+from core.data_ingestion import ingest_documents
+from core.vstore import store_documents_in_vectorstore, load_vectorstore
 from core.rag import create_rag_chain
 from utils.logging import get_logger
 import sys
@@ -13,17 +13,18 @@ def main():
         
         # Load and split documents
         logger.info("Loading documents from 'data' directory")
-        chunks = load_and_split_documents_from_directory('data')
+        chunks = ingest_documents('data')
         logger.info(f"Successfully loaded and split documents into {len(chunks)} chunks")
         
         # Create vector store
         logger.info("Creating vector store")
-        vstore = save_to_faiss(chunks)
+        store_documents_in_vectorstore(chunks, index_path="faiss_index")
         logger.info("Vector store created successfully")
         
         # Create RAG chain
         logger.info("Initializing RAG chain")
-        rag_chain = create_rag_chain(vstore)
+        vectorstore = load_vectorstore()
+        rag_chain = create_rag_chain(vectorstore)
         logger.info("RAG chain initialized successfully")
         
         # Interactive query loop
