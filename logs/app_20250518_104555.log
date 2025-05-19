@@ -1,0 +1,5 @@
+2025-05-18 10:46:03,870 - data_ingestion - INFO - Starting document ingestion process
+2025-05-18 10:46:03,872 - data_ingestion - DEBUG - Processing file: uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-18 10:46:06,473 - data_ingestion - INFO - Successfully loaded uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-18 10:46:06,473 - data_ingestion - INFO - Total documents loaded: 12
+2025-05-18 10:46:06,474 - data_ingestion - INFO - Documents split into 12 chunks

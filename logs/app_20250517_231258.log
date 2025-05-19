@@ -1,0 +1,19 @@
+2025-05-17 23:13:12,486 - data_ingestion - INFO - Starting document ingestion process
+2025-05-17 23:13:12,487 - data_ingestion - DEBUG - Processing file: Top 10 ML Algorithms.pdf
+2025-05-17 23:13:12,487 - data_ingestion - ERROR - Error processing Top 10 ML Algorithms.pdf: File path UploadedFile(file_id='b12b272f-834a-4711-b9c6-5c07908a6ed1', name='Top 10 ML Algorithms.pdf', type='application/pdf', size=23871865, _file_urls=file_id: "b12b272f-834a-4711-b9c6-5c07908a6ed1"
+upload_url: "/_stcore/upload_file/93bba07c-9249-424b-bf07-51899de877f4/b12b272f-834a-4711-b9c6-5c07908a6ed1"
+delete_url: "/_stcore/upload_file/93bba07c-9249-424b-bf07-51899de877f4/b12b272f-834a-4711-b9c6-5c07908a6ed1"
+) is not a valid file or url
+2025-05-17 23:17:23,979 - data_ingestion - INFO - Starting document ingestion process
+2025-05-17 23:17:26,968 - data_ingestion - INFO - Starting document ingestion process
+2025-05-17 23:17:36,639 - data_ingestion - INFO - Starting document ingestion process
+2025-05-17 23:19:20,898 - data_ingestion - INFO - Starting document ingestion process
+2025-05-17 23:19:20,899 - data_ingestion - DEBUG - Processing file: uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-17 23:19:27,035 - data_ingestion - INFO - Successfully loaded uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-17 23:19:27,037 - data_ingestion - INFO - Total documents loaded: 12
+2025-05-17 23:19:27,039 - data_ingestion - INFO - Documents split into 12 chunks
+2025-05-17 23:20:06,760 - data_ingestion - INFO - Starting document ingestion process
+2025-05-17 23:20:06,761 - data_ingestion - DEBUG - Processing file: uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-17 23:20:11,676 - data_ingestion - INFO - Successfully loaded uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-17 23:20:11,677 - data_ingestion - INFO - Total documents loaded: 12
+2025-05-17 23:20:11,680 - data_ingestion - INFO - Documents split into 12 chunks

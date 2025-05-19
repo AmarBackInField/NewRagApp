@@ -1,0 +1,10 @@
+2025-05-19 14:20:13,988 - data_ingestion - INFO - Starting document ingestion for folder: data
+2025-05-19 14:20:33,227 - data_ingestion - DEBUG - Processing file: data\Top 10 ML Algorithms.pdf
+2025-05-19 14:20:45,488 - data_ingestion - INFO - Successfully loaded: data\Top 10 ML Algorithms.pdf
+2025-05-19 14:20:56,655 - data_ingestion - INFO - Documents split into 12 chunks
+2025-05-19 14:21:30,943 - vstore - INFO - Creating vector store with OpenAIEmbeddings
+2025-05-19 14:21:45,124 - vstore - INFO - Saving vector store to path: faiss_index
+2025-05-19 14:22:17,787 - vstore - INFO - Removed existing file: faiss_index\index.faiss
+2025-05-19 14:22:35,191 - vstore - INFO - Removed existing file: faiss_index\index.pkl
+2025-05-19 14:22:58,436 - vstore - INFO - Vector store saved successfully
+2025-05-19 14:23:16,971 - vstore - INFO - Loading vector store from disk

@@ -1,0 +1,13 @@
+2025-05-19 14:20:04,626 - main - INFO - Starting document processing
+2025-05-19 14:20:04,627 - main - INFO - Loading documents from 'data' directory
+2025-05-19 14:21:03,573 - main - INFO - Successfully loaded and split documents into 12 chunks
+2025-05-19 14:21:09,836 - main - INFO - Creating vector store
+2025-05-19 14:23:02,925 - main - INFO - Vector store created successfully
+2025-05-19 14:23:10,675 - main - INFO - Initializing RAG chain
+2025-05-19 14:23:33,024 - rag - INFO - Creating RAG chain
+2025-05-19 14:23:38,185 - rag - DEBUG - Memory initialized
+2025-05-19 14:23:58,547 - rag - INFO - RAG chain created successfully
+2025-05-19 14:24:03,903 - main - INFO - RAG chain initialized successfully
+2025-05-19 14:24:07,471 - main - INFO - Starting interactive query session
+2025-05-19 14:24:35,375 - main - DEBUG - Processing query: What is capital of Delhi
+2025-05-19 14:24:58,306 - main - DEBUG - Response generated successfully

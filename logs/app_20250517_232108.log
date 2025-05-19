@@ -1,0 +1,10 @@
+2025-05-17 23:21:13,757 - data_ingestion - INFO - Starting document ingestion process
+2025-05-17 23:21:13,757 - data_ingestion - DEBUG - Processing file: uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-17 23:21:18,963 - data_ingestion - INFO - Successfully loaded uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-17 23:21:18,964 - data_ingestion - INFO - Total documents loaded: 12
+2025-05-17 23:21:18,966 - data_ingestion - INFO - Documents split into 12 chunks
+2025-05-17 23:24:56,092 - data_ingestion - INFO - Starting document ingestion process
+2025-05-17 23:24:56,092 - data_ingestion - DEBUG - Processing file: uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-17 23:25:09,897 - data_ingestion - INFO - Successfully loaded uploaded_files\Top 10 ML Algorithms.pdf
+2025-05-17 23:25:09,897 - data_ingestion - INFO - Total documents loaded: 12
+2025-05-17 23:25:09,897 - data_ingestion - INFO - Documents split into 12 chunks
