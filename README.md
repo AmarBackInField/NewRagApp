@@ -8,7 +8,8 @@ A powerful RAG (Retrieval-Augmented Generation) application that allows users to
 ![IMG_20250520_181736](https://github.com/user-attachments/assets/1b453f39-7c9f-4503-822b-72eb243f1bd4)
 ## 3.
 ![IMG_20250520_181817](https://github.com/user-attachments/assets/5c98e9ba-d46d-4dde-af5e-ba7b51e13315)
-
+## 4.
+![Screenshot 2025-05-22 163937](https://github.com/user-attachments/assets/ace3944a-382d-4f80-bcc2-a13667b459df)
 
 ## 🌟 Features
 
@@ -23,7 +24,7 @@ A powerful RAG (Retrieval-Augmented Generation) application that allows users to
 
 - **Python 3.10**
 - **LangChain**: Framework for developing applications with LLMs
-- **OpenAI GPT-4**: Advanced LLM used for generating high-quality responses
+- **OpenAI GPT-4.1 Mini**: Advanced LLM used for generating high-quality responses
 - **OpenAI Embeddings**: Used to convert text chunks into vector representations
 - **FAISS**: Vector database for efficient similarity search
 - **Streamlit**: Web application framework
@@ -32,7 +33,7 @@ A powerful RAG (Retrieval-Augmented Generation) application that allows users to
 
 ## 📋 Prerequisites
 
-- Python 3.10 or higher
+- Python 3.10
 - OpenAI API key
 - Docker (optional, for containerized deployment)
 
